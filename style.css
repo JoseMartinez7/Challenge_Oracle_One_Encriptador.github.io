@@ -1,0 +1,243 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    width: 100em;
+    height: 6em;
+    background-color: rgb(2, 2, 2);
+}
+.logo{
+    width: 5em;
+    height: 5em;
+    margin: 0.5%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+main{
+    width: 100em;
+    height: 100em;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+section{
+    width: 100em;
+    height: 100em;
+    background-color: rgb(255, 255, 255);
+    
+}
+.section1{
+    width: 60em;
+    background-color: rgb(255, 255, 255);
+}
+.titulo{
+    width: auto;
+    height: 1em;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.subtitulo {
+    width: auto;
+    height: 1em;
+    font-size: 2em;
+    text-align: center;
+}
+.mensaje{
+    width: 80%;
+    height: 60%;
+    display: block;
+    margin: auto;
+    background-color: rgba(174, 185, 182, 0.233);
+    border: 0;
+    border-radius: 1%;
+    margin-top: 1em;
+    font-size: 2em;
+}
+.contenedor-button{
+    text-align: center;
+    margin-top: 1em;
+}
+.encriptar, .desencriptar{
+    width: 14em;
+    height: 3em; 
+    border-radius: 1em;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: bold;
+    
+}
+.encriptar:hover, .desencriptar:hover{
+    background-color: azure;
+    color: black;
+}
+.section2{
+    width: 35em;
+    height: 66em;
+    background-color: rgba(0, 0, 0, 0.685);
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-right: 2em;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.contenedor-imagen{
+    width: 100%;
+    height: 50%;
+    padding-top: 6em;
+    text-align: center;
+    
+}
+.imgdeath{
+    width: 90% ;
+    height: 40em ;
+    margin-top:  4em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.contenedor-h3{
+    width: 100%;
+    height: 2em;
+    margin-top: 18em;
+    text-align: center;
+    color: azure;
+}
+.contenedor-parrafo{
+    width: 100%;
+    height: 100em;
+    margin-top: 1em;
+    text-align: center;
+    color: azure;
+}
+.contenedor-resultado{
+    width: 100%;
+    height: 20em;
+    margin: 1em;
+    color: azure;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+.resultado{
+    width: 90%;
+    height: 80%;
+    display: block;
+    border: 0;
+    border-radius: 2%;
+    margin-top: 2em;
+    font-size: 1rem;
+}
+.contenedor-copiar{
+    text-align: center;
+    margin-top: 1px;
+    
+}
+#copyBlock{
+    width: 14em;
+    height: 3em;
+    border-radius: 1em  ;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: bold;
+}
+#copyBlock:hover{
+    background-color: black;
+    color: azure;
+}
+footer{
+    width: 100em;
+    height: 2.5em;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: azure;
+}
+
+.ocultar{
+    display: none;
+}
+@media screen and (max-width:480px) {
+    .caja{
+        width: auto;
+    }
+    .section1{
+        width: 70em;
+    }
+    .section2{
+        width: 30em;
+    }
+    .mensaje{
+        width: 80%;
+        height: 60%;
+        display: block;
+        margin: auto;
+        margin-top: 4em;
+        font-size: 2em;
+    }
+    .contenedor-imagen{
+        width: 28em;
+    }
+    
+}
+
+@media screen and (max-width:720px) {
+    .caja{
+        width: auto;
+    }
+    .section1{
+        width: 70em;
+    }
+    .section2{
+        width: 30em;
+    }
+    .mensaje{
+        width: 80%;
+        height: 60%;
+        display: block;
+        margin: auto;
+        margin-top: 4em;
+        font-size: 2em;
+    }
+    .contenedor-imagen{
+        width: 28em;
+    }
+    
+}
+@media screen and (max-width:1020px) {
+    .caja{
+        width: auto;
+    }
+    .section1{
+        width: 70em;
+    }
+    .section2{
+        width: 30em;
+    }
+    .mensaje{
+        width: 80%;
+        height: 60%;
+        display: block;
+        margin: auto;
+        margin-top: 4em;
+        font-size: 2em;
+    }
+    .contenedor-imagen{
+        width: 28em;
+    }
+    
+}
